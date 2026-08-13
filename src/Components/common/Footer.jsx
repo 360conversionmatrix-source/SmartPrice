@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
 
           {/* Social Section */}
-          <div>
+          {/* <div>
             <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Follow Us</h4>
             <div className="flex space-x-4">
               <a 
@@ -80,7 +80,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

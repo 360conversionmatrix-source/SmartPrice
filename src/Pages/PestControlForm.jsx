@@ -107,17 +107,38 @@ const PestControlForm = () => {
     <div className="bg-white font-sans text-gray-700 min-h-screen">
       <Navbar number="+18449140510" number2="+18449140510" />
       <DisclaimerMarquee/>
-      <div className='absolute z-9999 md:hidden fixed top-[100px] w-full h-[100px] bg-white'>
-          <div className='text-center mt-7'>
-            <h5 className="m-0 p-0 text-md font-medium">Get your free quotes now</h5>
-        <a 
-          href="tel:+18449140510" 
-          className="m-0 p-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1] font-medium"
-        >
-          +1(844)-914-0510
-        </a>
-          </div>
-      </div>
+      <div className="absolute z-9999 md:hidden fixed top-[100px] w-full h-[100px] bg-white flex items-center justify-center p-2 shadow-sm">
+  <a href="tel:+18449140510" className="block no-underline">
+    <button className="relative flex items-center gap-3 bg-[#0685B1] hover:bg-[#066483] text-white font-semibold px-6 py-2.5 rounded-full shadow-md transition duration-300 animate-[heartbeat_1.5s_ease-in-out_infinite] cursor-pointer">
+      
+      {/* Ping effect behind the button */}
+      <span className="absolute inset-0 m-auto w-full h-full rounded-full bg-[#0685B1] animate-ping opacity-75 -z-10" />
+
+      {/* Headset Icon */}
+      <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        strokeWidth={1.5} 
+        stroke="currentColor" 
+        className="w-6 h-6 flex-shrink-0"
+      >
+        <path 
+          strokeLinecap="round" 
+          strokeLinejoin="round" 
+          d="M12 1.5a9 9 0 00-9 9v3a3 3 0 003 3h1.5v-6H6a7.5 7.5 0 0115 0h-1.5v6H18a3 3 0 003-3v-3a9 9 0 00-9-9z" 
+        />
+      </svg>
+
+      {/* Text Container */}
+      <span className="flex flex-col text-left leading-tight">
+        <span className="text-xs font-medium opacity-90">Get your free quotes now</span>
+        <span className="text-base font-bold">+1(844)-914-0510</span>
+      </span>
+
+    </button>
+  </a>
+</div>
       {/* Header */}
       <header className="relative pt-50 md:pt-24 text-center">
   <img 
