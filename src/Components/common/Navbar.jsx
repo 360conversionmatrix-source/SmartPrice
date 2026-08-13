@@ -23,22 +23,22 @@ const Navbar = ({ number, number2 }) => {
             </Link>
           </li>
           <li>
-            <a href="https://www.360holdingquotes.com/#services" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
+            <a href="https://www.smartpricequotes.com/#services" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
               Services
             </a>
           </li>
           <li>
-            <a href="https://www.360holdingquotes.com/#reviews" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
+            <a href="https://www.smartpricequotes.com/#reviews" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
               Reviews
             </a>
           </li>
           <li>
-            <a href="https://www.360holdingquotes.com/#faq" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
+            <a href="https://www.smartpricequotes.com/#faq" className="px-4 py-2 text-[#2c3e50] transition-all duration-300 hover:text-[#0685B1]">
               FAQ
             </a>
           </li>
           <li>
-            <a href="https://www.360holdingquotes.com/#services" className="ml-[15px] rounded-[5px] bg-[#0685B1] px-4 py-2 font-semibold text-white transition-all duration-300 hover:bg-[#056a8c]">
+            <a href="https://www.smartpricequotes.com/#services" className="ml-[15px] rounded-[5px] bg-[#0685B1] px-4 py-2 font-semibold text-white transition-all duration-300 hover:bg-[#056a8c]">
               Get a Quote
             </a>
           </li>

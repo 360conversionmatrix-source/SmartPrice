@@ -29,13 +29,13 @@ const Footer = () => {
                 <Link to="/" className="hover:text-[#0685B1] transition-colors">Home</Link>
               </li>
               <li>
-                <a href="https://www.360holdingquotes.com/#services" className="hover:text-[#0685B1] transition-colors">Get Started</a>
+                <a href="https://www.smartpricequotes.com/#services" className="hover:text-[#0685B1] transition-colors">Get Started</a>
               </li>
               <li>
-                <a href="https://www.360holdingquotes.com/#faq" className="hover:text-[#0685B1] transition-colors">FAQ</a>
+                <a href="https://www.smartpricequotes.com/#faq" className="hover:text-[#0685B1] transition-colors">FAQ</a>
               </li>
               <li>
-                <a href="https://www.360holdingquotes.com/#services" className="hover:text-[#0685B1] transition-colors">Contact Us</a>
+                <a href="https://www.smartpricequotes.com/#services" className="hover:text-[#0685B1] transition-colors">Contact Us</a>
               </li>
             </ul>
           </div>
