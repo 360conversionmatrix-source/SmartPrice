@@ -10,14 +10,13 @@ const Footer = () => {
           
           {/* Brand/Logo Section */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-white text-xl italic">
+            <div className="flex items-center space-x-2 ">
+              
                 <img src={img} alt="Logo" className="w-full h-full object-contain" />
-              </div>
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-400">Quotes</span>
+              
             </div>
             <div className="text-gray-300 text-sm leading-relaxed">
-              <p>©2025 Conversion Matrix 360.</p>
+              <p>©2025 SmartPrice Quotes.</p>
               <p>All Rights Reserved.</p>
             </div>
           </div>
@@ -59,7 +58,7 @@ const Footer = () => {
             <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Follow Us</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://www.facebook.com/profile.php?id=61587297926579" 
+                href="/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#0685B1] rounded-full flex items-center justify-center hover:bg-[#056a8c] transition-colors"
@@ -70,7 +69,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://www.instagram.com/conversionmatrix360official/" 
+                href="/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#0685B1] rounded-full flex items-center justify-center hover:bg-[#056a8c] transition-colors"

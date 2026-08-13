@@ -12,10 +12,7 @@ const Navbar = ({ number, number2 }) => {
         
         {/* Logo Section */}
         <div className="flex h-[100px] w-[400px] cursor-pointer items-center justify-center text-[1.5rem] font-bold text-[#2c3e50]">
-          <img src={img} alt="Logo" className="h-[60px] w-[60px]" />
-          <span className="ml-2">
-            <span className="text-[#0685B1]">QUOTES</span>
-          </span>
+          <img src={img} alt="Logo" className="h-[250px] w-[400px]" />
         </div>
 
         {/* Navigation Links - Hidden on mobile, flex on md+ */}
