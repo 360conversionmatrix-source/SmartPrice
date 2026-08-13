@@ -121,7 +121,7 @@ const PestControlForm = () => {
       {/* Header */}
       <header className="relative pt-50 md:pt-24 text-center">
   <img 
-    src="https://res.cloudinary.com/diicgo6ay/image/upload/v1772142550/E1032YVG_1_gxikwg.jpg" 
+    src="https://res.cloudinary.com/diicgo6ay/image/upload/v1784129270/pest-control-services-1024x537-1517737310_d6hfu9.jpg" 
     alt="Pest Control Service"
     className="w-full h-[300px] sm:h-[600px] object-cover object-top rounded-lg shadow-md z-0"
   />
